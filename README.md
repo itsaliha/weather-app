@@ -1,16 +1,81 @@
-# React + Vite
+# AI Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern weather application built with React.js that provides real-time weather information along with AI-generated weather insights and recommendations. The application features a responsive glassmorphism-inspired user interface and supports dynamic location-based weather searches.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Real-time weather information
+* AI-generated weather insights
+* Dynamic city search
+* Responsive design
+* Glassmorphism-inspired user interface
+* Fast API integration and data fetching
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript
+* Tailwind CSS
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### APIs
+
+* OpenAI API
+* Weather API
+
+### Tools
+
+* Git
+* GitHub
+* npm
+
+## Screenshots
+
+### Home Page
+
+![Home Page](screenshots/1.png)
+![Forecast Page](screenshots/2.png)
+![Details Page](screenshots/3.png)
+
+## Installation
+
+1. Clone the repository
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Add your API credentials
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## Environment Variables
+
+API keys have been removed from this repository for security reasons.
+
+To run the project locally, create a configuration file and add your own API credentials.
+
+Example:
+
+```env
+VITE_OPENAI_API_KEY=your_api_key_here
+```
+
+## Future Improvements
+
+* Save favorite locations
+* Extended forecasts
+* Improved AI recommendations
+* Deployment to production
+
+## Author
+
+Aliha Qaiser
